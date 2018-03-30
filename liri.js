@@ -4,6 +4,8 @@ var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var Twitter = require('twitter');
 var request = require('request');
+var omdbApi = require('omdb-client');
+var fs = require('fs');
 
 var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
@@ -46,6 +48,28 @@ switch (process.argv[2]) {
         }
         break;
     case "movie-this":
+    var params = {
+        apiKey: '8662e0bd',
+        title: process.argv[3]
+    }
+    omdbApi.get(params, function(err, data) {
+        console.log("Movie title: " + data.Title);
+        console.log("Year: " +  data.Year);
+        console.log("IMDB Rating: " + data.Ratings[0].Value);
+        console.log("Rotten Tomatoes Rating: " + data.Ratings[1].Value);
+        console.log("Country where the movie was produced: " + data.Country);
+        console.log("Language of the movie: " + data.Language);
+        console.log("Plot synopsis: " + data.Plot);
+        console.log("Actors: " + data.Actors);
+    });
+        //  Title of the movie.
+        //  Year the movie came out.
+        //  IMDB Rating of the movie.
+        //  Rotten Tomatoes Rating of the movie.
+        //  Country where the movie was produced.
+        //  Language of the movie.
+        //  Plot of the movie.
+        //  Actors in the movie.
         break;
     case "do-what-it-says":
         break;
