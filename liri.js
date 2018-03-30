@@ -20,6 +20,7 @@ function processTweets() {
                 console.log(tweets[i].created_at + ": " + tweets[i].text);
                 appendToFile(tweets[i].created_at + ": " + tweets[i].text + "\r\n");
             }
+            appendToFile("---------------------------\r\n");
         }
     });
 }
@@ -37,6 +38,7 @@ function processSpotifyRequest(arg) {
                 appendToFile("Song Name: " + data.tracks.items[0].name + "\r\n");
                 appendToFile("Preview URL: " + data.tracks.items[0].preview_url + "\r\n");
                 appendToFile("Album: " + data.tracks.items[0].album.name + "\r\n");
+                appendToFile("---------------------------\r\n");
             }
         });
     } else {
@@ -52,7 +54,7 @@ function processSpotifyRequest(arg) {
                 appendToFile("Song Name: " + data.tracks.items[5].name + "\r\n");
                 appendToFile("Preview URL: " + data.tracks.items[5].preview_url + "\r\n");
                 appendToFile("Album: " + data.tracks.items[5].album.name + "\r\n");
-
+                appendToFile("---------------------------\r\n");
             }
         });
     }
@@ -80,7 +82,7 @@ function processOMDBRequest(arg) {
         appendToFile("Language of the movie: " + data.Language + "\r\n");
         appendToFile("Plot synopsis: " + data.Plot + "\r\n");
         appendToFile("Actors: " + data.Actors + "\r\n");
-
+        appendToFile("---------------------------\r\n");
     });
     //  Title of the movie.
     //  Year the movie came out.
@@ -92,7 +94,7 @@ function processOMDBRequest(arg) {
     //  Actors in the movie.
 }
 function appendToFile(message) {
-    fs.appendFile('log.txt', message, function (err) {
+    fs.appendFileSync('log.txt', message, function (err) {
         if (err) throw err;
     });
 }
