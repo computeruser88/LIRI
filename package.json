@@ -19,6 +19,7 @@
   "homepage": "https://github.com/computeruser88/LIRI#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
     "node-spotify-api": "^1.0.7",
     "request": "^2.85.0",
     "twitter": "^1.7.1"
