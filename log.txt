@@ -1,14 +1,68 @@
-Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=a73e691d91b5483daa25318f5e12ef5f
-Album: The Hits--Chapter One
-Artist: Backstreet Boys
-Song Name: I Want It That Way
-------------------------------------------
-IMDB Rating: 7.8/10
+Artist: Metallica
+Preview URL: https://p.scdn.co/mp3-preview/12d4140bb2d0b18aa26cf84c33e4f4efd97fe72b?cid=a73e691d91b5483daa25318f5e12ef5f
+Album: Master of Puppets (Remastered Deluxe Box Set)
+Song Name: Master of Puppets (Remastered)
+Fri Mar 30 20:53:10 +0000 2018: This is test tweet #21.
+Fri Mar 30 20:53:00 +0000 2018: This is test tweet #20.
+Fri Mar 30 20:52:40 +0000 2018: This is test tweet #18.
+Fri Mar 30 20:52:51 +0000 2018: This is test tweet #19.
+Fri Mar 30 20:52:16 +0000 2018: This is test tweet #15.
+Fri Mar 30 20:52:34 +0000 2018: This is test tweet #17.
+Fri Mar 30 20:51:56 +0000 2018: This is test tweet #13.
+Fri Mar 30 20:52:06 +0000 2018: This is test tweet #14.
+Fri Mar 30 20:51:49 +0000 2018: This is test tweet #12.
+Fri Mar 30 20:51:33 +0000 2018: This is test tweet #10.
+Fri Mar 30 20:52:25 +0000 2018: This is test tweet #16.
+Fri Mar 30 20:51:40 +0000 2018: This is test tweet #11.
+Fri Mar 30 20:51:23 +0000 2018: This is test tweet #9.
+Fri Mar 30 20:51:05 +0000 2018: This is test tweet #7.
+Fri Mar 30 20:51:15 +0000 2018: This is test tweet #8.
+Fri Mar 30 20:50:44 +0000 2018: This is test tweet #5.
+Fri Mar 30 20:50:35 +0000 2018: This is test tweet #4.
+Fri Mar 30 20:50:56 +0000 2018: This is test tweet #6.
+Fri Mar 30 20:50:25 +0000 2018: This is test tweet #3.
+Fri Mar 30 20:50:12 +0000 2018: This is test tweet #2.
+Movie title: Sing Street
+Year: 2016
+IMDB Rating: 8.0/10
+Rotten Tomatoes Rating: 95%
+Language of the movie: English, French, Latin
+Country where the movie was produced: Ireland, UK, USA
+Plot synopsis: A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.
+Actors: Ferdia Walsh-Peelo, Kelly Thornton, Maria Doyle Kennedy, Jack Reynor
+Movie title: The Shape of Water
+Year: 2017
+Rotten Tomatoes Rating: 92%
 Country where the movie was produced: USA
-Year: 2018
-Movie title: Black Panther
-Rotten Tomatoes Rating: 97%
-Language of the movie: Swahili, Nama, English, Xhosa, Korean
-Actors: Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira
-Plot synopsis: T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake.
-------------------------------------------
+IMDB Rating: 7.6/10
+Language of the movie: English, American Sign Language, Russian, French
+Plot synopsis: At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
+Actors: Sally Hawkins, Michael Shannon, Richard Jenkins, Octavia Spencer
+Artist: Ace of Base
+Song Name: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=a73e691d91b5483daa25318f5e12ef5f
+Artist: Nine Inch Nails
+Song Name: And All That Could Have Been
+Album: Still
+Preview URL: null
+Artist: Nine Inch Nails
+Song Name: Zero Sum
+Preview URL: null
+Album: Year Zero
+Artist: Nine Inch Nails
+Song Name: The Perfect Drug
+Album: Lost Highway
+Preview URL: null
+Artist: David Bowie
+Song Name: Lazarus
+Preview URL: https://p.scdn.co/mp3-preview/a8d5a6f1796b7896aefc89bc5d9cacc39ee7129a?cid=a73e691d91b5483daa25318f5e12ef5f
+Album: Blackstar
+Artist: Pegboard Nerds
+Album: Swamp Thing
+Song Name: Swamp Thing
+Preview URL: https://p.scdn.co/mp3-preview/f01320c2aaf4ac4f6d43cf0604d9130d9b64b460?cid=a73e691d91b5483daa25318f5e12ef5f
+Artist: Thrice
+Song Name: The Earth Isn't Humming
+Album: The Alchemy Index, Vol. 3 & 4: Air & Earth
+Preview URL: https://p.scdn.co/mp3-preview/a4ba62c64fd0a6d4cf137e6e4ae34a3d3bf13c36?cid=a73e691d91b5483daa25318f5e12ef5f
