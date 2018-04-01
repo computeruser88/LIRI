@@ -13,4 +13,4 @@ Use the following command line syntax to operate LIRI Bot:
 * LIRI Bot URL: https://computeruser88.github.io/LIRI/
 * GitHub repo: https://github.com/computeruser88/LIRI
 
-*Note: to use this repository you will need to supply your own Twitter, OMDB, and Spotify API keys. Mine were not uploaded to the repository for privacy and security reasons.*
+*Note: to use this repository you will need to supply your own Twitter and Spotify API keys. Mine were not uploaded to the repository for privacy and security reasons.*
