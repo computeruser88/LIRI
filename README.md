@@ -9,3 +9,5 @@ Use the following command line syntax to operate LIRI Bot:
 * **node do-what-it-says** --> looks for a file called *random.txt* and executes a single instruction in that file. Arguments in that file must be separated by a comma with no spaces in between.
 
 *Technologies used in this project: Node.js, JavaScript, Ajax, Twitter API, OMDB API, Spotify API*
+
+LIRI Bot URL: https://computeruser88.github.io/LIRI/
