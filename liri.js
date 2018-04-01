@@ -137,7 +137,7 @@ switch (process.argv[2]) {
             }
             args = [];
             args = data.split(',');
-            if (args[0] && args[1]) {
+            if (args[0]) {
                 switch (args[0]) {
                     case "my-tweets":
                         processTweets();
