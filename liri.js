@@ -101,6 +101,25 @@ function appendToFile(message) {
         if (err) throw err;
     });
 }
+
+// log command
+if (process.argv[2]) {
+    fs.appendFileSync('log.txt', process.argv[2], function (err) {
+        if (err) throw err;
+    });
+} else {
+    console.log("Error: command not found");
+}
+if (process.argv[3]) {
+    fs.appendFileSync('log.txt', " " + process.argv[3] + "\r\n", function (err) {
+        if (err) throw err;
+    })
+} else {
+    fs.appendFileSync('log.txt', "\r\n", function (err) {
+        if (err) throw err;
+    });
+}
+
 switch (process.argv[2]) {
     case "my-tweets":
         processTweets();
