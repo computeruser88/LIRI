@@ -61,6 +61,9 @@ function processSpotifyRequest(arg) {
 }
 
 function processOMDBRequest(arg) {
+    if (!arg) {
+        arg = "Mr. Nobody";
+    }
     var params = {
         apiKey: '8662e0bd',
         title: arg
