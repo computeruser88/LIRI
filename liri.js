@@ -45,6 +45,7 @@ function processSpotifyRequest(arg) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             } else {
+                // Ace of Base is not the first item in the array of results
                 console.log(`Artist: ${data.tracks.items[5].artists[0].name}`);
                 console.log(`Song Name: ${data.tracks.items[5].name}`);
                 console.log(`Preview URL: ${data.tracks.items[5].preview_url}`);
