@@ -93,6 +93,7 @@ function processOMDBRequest(arg) {
     //  Actors in the movie.
 }
 function appendToFile(message) {
+    // synchronous file appending to ensure lines will output to log.txt in correct order
     fs.appendFileSync('log.txt', message, function (err) {
         if (err) throw err;
     });
