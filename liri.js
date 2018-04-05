@@ -19,7 +19,7 @@ function processTweets() {
                 console.log(`${tweets[i].created_at}: ${tweets[i].text}`);
                 appendToFile(`${tweets[i].created_at}: ${tweets[i].text}\r\n`);
             }
-            appendToFile("---------------------------\r\n");
+            appendToFile(`---------------------------\r\n`);
         }
     });
 }
