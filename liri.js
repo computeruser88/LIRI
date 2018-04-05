@@ -16,7 +16,7 @@ function processTweets() {
         if (!error) {
             console.log("Tweets:");
             for (var i = 0; i < 20; i++) {
-                console.log(tweets[i].created_at + ": " + tweets[i].text);
+                console.log(`${tweets[i].created_at}: ${tweets[i].text}`);
                 appendToFile(tweets[i].created_at + ": " + tweets[i].text + "\r\n");
             }
             appendToFile("---------------------------\r\n");
@@ -29,10 +29,10 @@ function processSpotifyRequest(arg) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             } else {
-                console.log("Artist: " + data.tracks.items[0].artists[0].name);
-                console.log("Song Name: " + data.tracks.items[0].name);
-                console.log("Preview URL: " + data.tracks.items[0].preview_url);
-                console.log("Album: " + data.tracks.items[0].album.name);
+                console.log(`Artist: ${data.tracks.items[0].artists[0].name}`);
+                console.log(`Song Name: ${data.tracks.items[0].name}`);
+                console.log(`Preview URL: ${data.tracks.items[0].preview_url}`);
+                console.log(`Album: ${data.tracks.items[0].album.name}`);
                 appendToFile("Artist: " + data.tracks.items[0].artists[0].name + "\r\n");
                 appendToFile("Song Name: " + data.tracks.items[0].name + "\r\n");
                 appendToFile("Preview URL: " + data.tracks.items[0].preview_url + "\r\n");
@@ -45,10 +45,10 @@ function processSpotifyRequest(arg) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             } else {
-                console.log("Artist: " + data.tracks.items[5].artists[0].name);
-                console.log("Song Name: " + data.tracks.items[5].name);
-                console.log("Preview URL: " + data.tracks.items[5].preview_url);
-                console.log("Album: " + data.tracks.items[5].album.name);
+                console.log(`Artist: ${data.tracks.items[5].artists[0].name}`);
+                console.log(`Song Name: ${data.tracks.items[5].name}`);
+                console.log(`Preview URL: ${data.tracks.items[5].preview_url}`);
+                console.log(`Album: ${data.tracks.items[5].album.name}`);
                 appendToFile("Artist: " + data.tracks.items[5].artists[0].name + "\r\n");
                 appendToFile("Song Name: " + data.tracks.items[5].name + "\r\n");
                 appendToFile("Preview URL: " + data.tracks.items[5].preview_url + "\r\n");
@@ -65,14 +65,14 @@ function processOMDBRequest(arg) {
     }
     var queryUrl = "http://www.omdbapi.com/?t=" + arg + "&y=&plot=short&apikey=trilogy";
     request.get(queryUrl, function (error, response, body) {
-        console.log("Movie title: " + JSON.parse(body).Title);
-        console.log("Year: " + JSON.parse(body).Year);
-        console.log("IMDB Rating: " + JSON.parse(body).Ratings[0].Value);
-        console.log("Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[1].Value);
-        console.log("Country where the movie was produced: " + JSON.parse(body).Country);
-        console.log("Language of the movie: " + JSON.parse(body).Language);
-        console.log("Plot synopsis: " + JSON.parse(body).Plot);
-        console.log("Actors: " + JSON.parse(body).Actors);
+        console.log(`Movie title: ${JSON.parse(body).Title}`);
+        console.log(`Year: ${JSON.parse(body).Year}`);
+        console.log(`IMDB Rating: ${JSON.parse(body).Ratings[0].Value}`);
+        console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value}`);
+        console.log(`Country where the movie was produced: ${JSON.parse(body).Country}`);
+        console.log(`Language of the movie: ${JSON.parse(body).Language}`);
+        console.log(`Plot synopsis: ${JSON.parse(body).Plot}`);
+        console.log(`Actors: ${JSON.parse(body).Actors}`);
         appendToFile("Movie title: " + JSON.parse(body).Title + "\r\n");
         appendToFile("Year: " + JSON.parse(body).Year + "\r\n");
         appendToFile("IMDB Rating: " + JSON.parse(body).Ratings[0].Value + "\r\n");
