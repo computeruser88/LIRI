@@ -1,5 +1,7 @@
 # LIRI Bot - Language Interpretation and Recognition Interface
 
+![LIRI Bot](https://media.giphy.com/media/yvYpCQSZ1HkMzdzwng/giphy.gif)
+
 LIRI Bot is a Node.js utility that can be used to query Twitter, OMDB, and Spotify APIs. It writes all searches and their results to a local log.txt file.
 
 Use the following command line syntax to operate LIRI Bot:
